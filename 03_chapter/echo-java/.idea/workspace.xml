@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="89a509d8-85ab-4bd6-8fcf-7564d5e9e011" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fFOxdsOuszuz2MtaHm1SG4vaHU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4218391" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="JUnit.FlowTests">
+    <configuration name="CordaHashExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.template.flows.CordaHashExamples" />
+      <module name="echo-java.workflows.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.template.flows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DriverBasedTest.nodeTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="echo-java.workflows.integrationTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.template" />
+      <option name="MAIN_CLASS_NAME" value="com.template.DriverBasedTest" />
+      <option name="METHOD_NAME" value="nodeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DriverBasedTest.nodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="echo-java.workflows.integrationTest" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.template" />
+      <option name="MAIN_CLASS_NAME" value="com.template.DriverBasedTest" />
+      <option name="METHOD_NAME" value="nodeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -javaagent:../lib/quasar.jar" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="echo-java.workflows.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.template" />
+      <option name="MAIN_CLASS_NAME" value="com.template.FlowTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowTests.dummyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="echo-java.workflows.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.template" />
+      <option name="MAIN_CLASS_NAME" value="com.template.FlowTests" />
+      <option name="METHOD_NAME" value="dummyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Starter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="echo-java.clients.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.template.webserver.Starter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Run Template Client" />
+      <item itemvalue="Application.Run Template Cordapp" />
+      <item itemvalue="Application.Run Template Server" />
+      <item itemvalue="Application.CordaHashExamples" />
+      <item itemvalue="Gradle.Run Contract Tests" />
+      <item itemvalue="Gradle.Run Flow Tests" />
+      <item itemvalue="Gradle.Run Ingegration Tests" />
+      <item itemvalue="Gradle.Unit tests" />
+      <item itemvalue="JUnit.DriverBasedTest.nodeTest" />
+      <item itemvalue="JUnit.DriverBasedTest.nodeTest (1)" />
+      <item itemvalue="JUnit.FlowTests.dummyTest" />
+      <item itemvalue="JUnit.FlowTests" />
+      <item itemvalue="Remote.Debug CorDapp" />
+      <item itemvalue="Spring Boot.Starter" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FlowTests" />
+        <item itemvalue="JUnit.FlowTests.dummyTest" />
+        <item itemvalue="JUnit.DriverBasedTest.nodeTest" />
+        <item itemvalue="JUnit.DriverBasedTest.nodeTest (1)" />
+        <item itemvalue="Application.CordaHashExamples" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89a509d8-85ab-4bd6-8fcf-7564d5e9e011" name="Default Changelist" comment="" />
+      <created>1570995533088</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570995533088</updated>
+      <workItem from="1595810623600" duration="1674000" />
+      <workItem from="1595954442973" duration="2404000" />
+      <workItem from="1598484538408" duration="66000" />
+      <workItem from="1598484729204" duration="24000" />
+      <workItem from="1598485492392" duration="6000" />
+      <workItem from="1598721730156" duration="3641000" />
+      <workItem from="1601246487069" duration="44000" />
+      <workItem from="1601248429707" duration="354000" />
+      <workItem from="1606080519162" duration="759000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2360" y="114" key="#Project_Structure" timestamp="1598721983388">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2360" y="114" key="#Project_Structure/0.0.1920.1050/-1920.0.1920.1080/0.-1080.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598721983388" />
+    <state x="2334" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598722146731">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2334" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-1920.0.1920.1080/0.-1080.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598722146731" />
+    <state x="2660" y="295" key="FileChooserDialogImpl" timestamp="1598723078027">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2660" y="295" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1080/0.-1080.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598723078027" />
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1598722977459">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1080/0.-1080.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598722977459" />
+    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1598722977458">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1080/0.-1080.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598722977458" />
+    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1598722977458">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1080/0.-1080.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598722977458" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1598722977458">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1080/0.-1080.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598722977458" />
+    <state x="2381" y="185" key="SettingsEditor" timestamp="1598721923573">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2381" y="185" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1080/0.-1080.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598721923573" />
+  </component>
+</project>
