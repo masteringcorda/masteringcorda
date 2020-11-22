@@ -22,13 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89a509d8-85ab-4bd6-8fcf-7564d5e9e011" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/Initiator.java" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/EchoInitiatorFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/Responder.java" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/Responder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows/src/test/java/com/template/FlowTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/src/test/java/com/template/FlowTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="89a509d8-85ab-4bd6-8fcf-7564d5e9e011" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -207,7 +201,7 @@
       <workItem from="1601248429707" duration="354000" />
       <workItem from="1606080519162" duration="759000" />
       <workItem from="1606082029277" duration="55000" />
-      <workItem from="1606082245485" duration="146000" />
+      <workItem from="1606082245485" duration="427000" />
     </task>
     <servers />
   </component>
