@@ -18,7 +18,7 @@ import java.util.Set;
 // ******************
 @InitiatingFlow
 @StartableByRPC
-public class d Initiator extends FlowLogic<Void> {
+public class EchoInitiatorFlow extends FlowLogic<Void> {
     private final ProgressTracker progressTracker = new ProgressTracker();
     private String message;
     private String recipient;
@@ -28,7 +28,7 @@ public class d Initiator extends FlowLogic<Void> {
         return progressTracker;
     }
 
-    public Initiator(String message, String recipient) {
+    public EchoInitiatorFlow(String message, String recipient) {
         this.message = message;
         this.recipient = recipient;
     }

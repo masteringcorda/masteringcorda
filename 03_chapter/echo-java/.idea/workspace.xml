@@ -3,8 +3,32 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="89a509d8-85ab-4bd6-8fcf-7564d5e9e011" name="Default Changelist" comment="" />
+    <list default="true" id="89a509d8-85ab-4bd6-8fcf-7564d5e9e011" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/Initiator.java" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/EchoInitiatorFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/Responder.java" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/Responder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/src/test/java/com/template/FlowTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/src/test/java/com/template/FlowTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,9 +54,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1fFOxdsOuszuz2MtaHm1SG4vaHU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,17 +83,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,15 +153,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <option name="AUTO_RESTART" value="false" />
-      <method v="2" />
-    </configuration>
     <configuration name="Starter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="echo-java.clients.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.template.webserver.Starter" />
@@ -201,6 +206,8 @@
       <workItem from="1601246487069" duration="44000" />
       <workItem from="1601248429707" duration="354000" />
       <workItem from="1606080519162" duration="759000" />
+      <workItem from="1606082029277" duration="55000" />
+      <workItem from="1606082245485" duration="146000" />
     </task>
     <servers />
   </component>
@@ -252,5 +259,9 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2381" y="185" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1080/0.-1080.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598721923573" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1606082343711">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1080/0.-1080.1920.1080/1920.0.1920.1080@0.0.1920.1050" timestamp="1606082343711" />
   </component>
 </project>

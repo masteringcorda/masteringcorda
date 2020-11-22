@@ -9,11 +9,11 @@ import net.corda.core.flows.InitiatedBy;
 // ******************
 // * EchoResponderFlow flow *
 // ******************
-@InitiatedBy(Initiator.class)
-public class Responder extends FlowLogic<Void> {
+@InitiatedBy(EchoInitiatorFlow.class)
+public class EchoResponderFlow extends FlowLogic<Void> {
     private FlowSession counterpartySession;
 
-    public Responder(FlowSession counterpartySession) {
+    public EchoResponderFlow(FlowSession counterpartySession) {
         this.counterpartySession = counterpartySession;
     }
 

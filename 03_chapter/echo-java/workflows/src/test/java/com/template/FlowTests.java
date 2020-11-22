@@ -1,8 +1,8 @@
 package com.template;
 
 import com.google.common.collect.ImmutableList;
-import com.template.flows.Initiator;
-import com.template.flows.Responder;
+import com.template.flows.EchoInitiatorFlow;
+import com.template.flows.EchoResponderFlow;
 import net.corda.core.concurrent.CordaFuture;
 import net.corda.testing.node.MockNetwork;
 import net.corda.testing.node.MockNetworkParameters;
@@ -21,8 +21,8 @@ public class FlowTests {
     private final StartedMockNode b = network.createNode();
 
     public FlowTests() {
-        a.registerInitiatedFlow(Responder.class);
-        b.registerInitiatedFlow(Responder.class);
+        a.registerInitiatedFlow(EchoResponderFlow.class);
+        b.registerInitiatedFlow(EchoResponderFlow.class);
     }
 
     @Before
@@ -37,7 +37,7 @@ public class FlowTests {
 
     @Test
     public void dummyTest() {
-        CordaFuture<Void> voidCordaFuture = a.startFlow(new Initiator("Hello there", "PartyB"));
+        CordaFuture<Void> voidCordaFuture = a.startFlow(new EchoInitiatorFlow("Hello there", "PartyB"));
 
 
     }
