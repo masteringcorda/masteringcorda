@@ -13,11 +13,7 @@ public class AssignToDoResponder extends FlowLogic<SignedTransaction> {
     public AssignToDoResponder(FlowSession counterpartySession) {
         this.counterpartySession = counterpartySession;
     }
-    /*
-        flow start CreateToDoFlow task: "Wuzzup"
 
-        flow start AssignTaskFlow linearId: "c2f5286b-e45f-4f1f-be92-c4e9d60f759d", assignedTo: PartyB
-     */
     @Suspendable
     @Override
     public SignedTransaction call() throws FlowException {
