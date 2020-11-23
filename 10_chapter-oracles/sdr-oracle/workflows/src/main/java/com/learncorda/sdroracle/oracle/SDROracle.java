@@ -52,8 +52,11 @@ public class SDROracle extends SingletonSerializeAsToken {
         PublicKey mykey = serviceHub.getMyInfo().getLegalIdentities().get(0).getOwningKey();
         if (ftx.checkWithFun(this::isSignableTransaction))
             return serviceHub.createSignature(ftx,mykey);
-        else
+        else {
+            // The below line added because in some shells the exception is not shown, but does appear in the oracle's logs
+            System.out.println("The SDR Oracle cannot sign this transaction");
             throw new IllegalArgumentException("The SDR Oracle cannot sign this transaction");
+        }
     }
 
     private boolean isSignableTransaction(Object o) {
