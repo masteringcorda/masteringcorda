@@ -2,11 +2,11 @@ package com.learncorda.sdroracle.contracts;
 
 import net.corda.core.contracts.CommandData;
 
-public class GetSDRCommand implements CommandData {
+public class RetrieveSDRCommand implements CommandData {
     private String date;
     private Float rate;
 
-    public GetSDRCommand(String date, Float rate) {
+    public RetrieveSDRCommand(String date, Float rate) {
         this.date = date;
         this.rate = rate;
     }

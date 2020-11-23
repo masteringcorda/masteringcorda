@@ -1,7 +1,7 @@
 package com.learncorda.sdroracle.client;
 
 import co.paralleluniverse.fibers.Suspendable;
-import com.learncorda.sdroracle.contracts.GetSDRCommand;
+import com.learncorda.sdroracle.contracts.RetrieveSDRCommand;
 import com.learncorda.sdroracle.states.SDRState;
 import com.google.common.collect.ImmutableList;
 import net.corda.core.contracts.Command;
@@ -49,7 +49,7 @@ public class Initiator extends FlowLogic<Void> {
         parties = sb.getIdentityService().partiesFromName("SDROracle", true);
         Party oracleSDR = parties.iterator().next();
         SDRState sdr = new SDRState(date,rate,getOurIdentity());
-        GetSDRCommand cmd = new GetSDRCommand(date,rate);
+        RetrieveSDRCommand cmd = new RetrieveSDRCommand(date,rate);
 
         List<PublicKey> signers = ImmutableList.of(oracleSDR.getOwningKey(),getOurIdentity().getOwningKey());
 
@@ -63,7 +63,7 @@ public class Initiator extends FlowLogic<Void> {
             @Override
             public boolean test(Object o) {
                 if (o instanceof Command
-                        && ((Command) o).getValue() instanceof GetSDRCommand
+                        && ((Command) o).getValue() instanceof RetrieveSDRCommand
                         && ((Command) o).getSigners().contains(oracleSDR.getOwningKey()))
                     return true;
                 else
