@@ -29,7 +29,7 @@ public class SDROracle extends SingletonSerializeAsToken {
         this.serviceHub = sb;
         if(sb.getMyInfo().getLegalIdentities().get(0).getName().getOrganisation().equalsIgnoreCase("sdroracle")) {
             System.out.println("This is an oracle node");
-            String fileURL = "https://raw.githubusercontent.com/masteringcorda/10_chapter-oracles/data/master/SDRV.csv";
+            String fileURL = "https://raw.githubusercontent.com/masteringcorda/masteringcorda/main/10_chapter-oracles/data/SDRV.csv";
             BufferedReader br = null;
             String r = null;
             rates = new HashMap();
@@ -37,6 +37,7 @@ public class SDROracle extends SingletonSerializeAsToken {
 
                 br = new BufferedReader(new InputStreamReader(new URL(fileURL).openStream()));
                 while ((r = br.readLine()) != null) {
+                    System.out.println("Processing: " + r);
                     String[] line = r.split(",");
                     rates.put(line[0], Float.valueOf(line[2]));
                 }
