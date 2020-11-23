@@ -62,7 +62,6 @@ public class SDROracle extends SingletonSerializeAsToken {
                 && ((Command) o).getValue() instanceof RetrieveSDRCommand
                 && ((Command) o).getSigners().contains(mykey)) {
             final String date = ((RetrieveSDRCommand) ((Command) o).getValue()).getDate();
-            System.out.println("date: " + date);
             final Float rate = ((RetrieveSDRCommand) ((Command) o).getValue()).getRate();
 
             if(rates.get(date).equals(rate))
