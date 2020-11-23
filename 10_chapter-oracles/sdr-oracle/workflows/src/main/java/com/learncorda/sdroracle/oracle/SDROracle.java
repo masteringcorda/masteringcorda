@@ -43,9 +43,7 @@ public class SDROracle extends SingletonSerializeAsToken {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            for (String k : rates.keySet()) {
-                System.out.println(k + ": " + rates.get(k));
-            }
+            for (k : rates.keySet())
             System.out.println("SDROracle service loaded with " + rates.size() + " rates.");
         }
     }
@@ -67,9 +65,7 @@ public class SDROracle extends SingletonSerializeAsToken {
             final String date = ((RetrieveSDRCommand) ((Command) o).getValue()).getDate();
             System.out.println("date: " + date);
             final Float rate = ((RetrieveSDRCommand) ((Command) o).getValue()).getRate();
-            System.out.println(("rate: " + rate));
-            System.out.println("yes? " + rates.containsKey(date));
-
+            
             if(rates.get(date).equals(rate))
                 return true;
         }
