@@ -7,4 +7,5 @@ Pull requests are welcome!
 
 # Author
 Author info: **[Jamiel Sheikh](https://jamiel.io)**
+
 hello@chainhaus.com
